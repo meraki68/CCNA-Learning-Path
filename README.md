@@ -1,11 +1,23 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
+# Day 10 of My 60-Day Network Engineering Challenge
+Today, I connected everything together using Trunking + Router-on-a-Stick.
+
+This is how multiple VLANs communicate in real networks.
+
+Here’s what I worked on:
+- Configured switch ports as access ports for different VLANs
+-	Set up a trunk link between switches (carrying multiple VLANs)
+-	Configured a native VLAN for untagged traffic
+-	Implemented router-on-a-stick for inter-VLAN routing
+-	Assigned gateway IPs to router subinterfaces
+-	Tested full connectivity across all VLANs
+
+💡 Key Takeaways:
+-	Access ports belong to a single VLAN
+-	Trunk ports carry multiple VLANs using tagging
+-	Native VLAN handles untagged traffic
+-	Router-on-a-stick enables communication between VLANs
+
+⚠️ What stood out:
+Without router-on-a-stick, VLANs are isolated — with it, the network becomes fully connected.
+
+This felt like building a real enterprise network setup.
