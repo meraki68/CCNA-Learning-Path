@@ -1,4 +1,4 @@
-# 12 of My 60-Day Network Engineering Challenge
+# Day 12 of My 60-Day Network Engineering Challenge
 Today was all about VTP (VLAN Trunking Protocol) and trunking behavior — and it changed how I see VLAN management.
 
 Instead of configuring VLANs on every switch manually, I explored how switches can share VLAN information automatically.
