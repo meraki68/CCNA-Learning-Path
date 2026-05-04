@@ -9,8 +9,8 @@ Here’s what I worked on:
 -	Analyzed switch priorities and MAC addresses
 -	Determined port roles:
 -	Root ports
-o	Designated ports
-o	Non-designated (blocked) ports
+-	Designated ports
+-	Non-designated (blocked) ports
 -	Verified everything using CLI commands
 
 💡 Key Takeaways:
