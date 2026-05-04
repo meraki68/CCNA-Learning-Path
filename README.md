@@ -1,14 +1,25 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
+# Day 13 of My 60-Day Network Engineering Challenge
+Today, I dived into Spanning Tree Protocol (STP) — the protocol that prevents network loops.
+
+At first glance, the topology looked fine…
+But underneath, STP was making decisions on which links to block and which to forward.
+
+Here’s what I worked on:
+-	Identified the root bridge in the network
+-	Analyzed switch priorities and MAC addresses
+-	Determined port roles:
+-	Root ports
+o	Designated ports
+o	Non-designated (blocked) ports
+-	Verified everything using CLI commands
+
+💡 Key Takeaways:
+-	STP prevents loops by blocking redundant paths
+-	The switch with the lowest Bridge ID becomes the root bridge
+-	Each port is assigned a role based on the best path to the root
+-	Redundant links are good — but must be controlled
+
+⚠️ What stood out:
+Even though multiple paths exist, only one is active — the rest are kept as backups.
+
+This is how networks stay stable even with redundancy.
