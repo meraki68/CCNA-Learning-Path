@@ -1,16 +1,25 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
+# Day 15 of My 60-Day Network Engineering Challenge
+Today, I explored Rapid Spanning Tree Protocol (RSTP) — and it challenged what I thought I knew about STP.
+
+At first, things didn’t look the way I expected…
+
+And that’s where the real learning happened.
+
+Here’s what I worked on:
+-	Identified the root bridge in the topology
+-	Analyzed port roles and states on each switch
+-	Compared expected vs actual STP behavior
+-	Investigated why the root bridge behavior looked different
+-	Determined port roles without CLI, then verified
+-	Configured RSTP link types manually
+
+💡 Key Takeaways:
+-	RSTP behaves differently from traditional STP
+-	Port roles and states can change based on link types
+-	Understanding why something looks different is key
+-	CLI verification is important — but thinking first is better
+
+⚠️ What stood out:
+What I expected from STP didn’t fully match what I saw — and that forced me to think deeper.
+
+This is where theory meets reality.
