@@ -15,3 +15,4 @@
 - [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
 - [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
 - [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
+- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
