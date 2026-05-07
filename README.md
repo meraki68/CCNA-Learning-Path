@@ -1,17 +1,24 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
+# Day 16 of My 60-Day Network Engineering Challenge
+Today was all about EtherChannel — combining multiple links into one logical connection for better performance and redundancy.
+
+This is how real networks handle high traffic efficiently.
+
+Here’s what I worked on:
+-	Configured Layer 2 EtherChannel (LACP) between access and distribution switches
+-	Configured Layer 2 EtherChannel (PAgP) on another link
+-	Built a Layer 3 EtherChannel between distribution switches
+-	Configured routing for end-to-end connectivity
+-	Analyzed default load-balancing behavior
+-	Tuned load balancing to use source + destination IP
+
+💡 Key Takeaways:
+-	EtherChannel increases bandwidth + redundancy
+-	LACP (open standard) vs PAgP (Cisco proprietary)
+-	Multiple physical links act as one logical link
+-	Load balancing determines how traffic is distributed
+
+⚠️ What stood out:
+Without proper load balancing, traffic may not use all available links efficiently.
+
+This is how networks scale under heavy traffic.
+
