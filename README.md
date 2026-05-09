@@ -1,19 +1,23 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
+# Day 18 of My 60-Day Network Engineering Challenge
+Today, I explored EIGRP and advanced routing behavior — and this one stretched my understanding.
+
+This wasn’t just about routing… it was about how routers intelligently choose and balance paths.
+
+Here’s what I worked on:
+-	Configured IP addressing and hostnames across routers
+-	Created loopback interfaces (for stable router identification)
+-	Set up EIGRP across all routers
+-	Disabled auto-summary for proper route advertisement
+-	Configured passive interfaces for efficiency
+-	Implemented unequal-cost load balancing
+
+💡 Key Takeaways:
+-	EIGRP allows smarter and faster routing decisions
+-	Loopback interfaces provide stable router IDs
+-	Passive interfaces reduce unnecessary traffic
+-	Unequal-cost load balancing allows traffic to use multiple paths efficiently
+
+⚠️ What stood out:
+Unlike traditional routing, traffic doesn’t always follow a single path — it can be intelligently distributed.
+
+This is where routing becomes dynamic and optimized.
