@@ -17,3 +17,4 @@
 - [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
 - [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
 - [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
+- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
