@@ -1,20 +1,20 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
+# Day 19 of My 60-Day Network Engineering Challenge
+Today, I worked on one of the most important routing protocols in enterprise networking — OSPF (Open Shortest Path First) — and this lab helped me understand how dynamic routing actually behaves in a multi-router environment.
+
+Here’s what I configured in today’s lab:
+- Assigned hostnames and IP addresses to all routers
+- Configured and enabled router interfaces
+- Created loopback interfaces on each router for stable router IDs
+- Enabled OSPF across the network topology
+- Learned why certain interfaces should be configured as passive interfaces
+- Avoided enabling OSPF on the Internet-facing link
+- Configured R1 as an ASBR (Autonomous System Boundary Router)
+- Advertised a default route into the OSPF domain
+- Verified routing tables on R2, R3, and R4 to confirm route propagation
+
+One major takeaway from today’s lab was understanding how a default route can be injected into an OSPF network and automatically learned by neighboring routers.
+
+Seeing the routes populate dynamically made the entire concept feel much more real.
+
+
+
