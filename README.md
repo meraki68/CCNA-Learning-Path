@@ -1,26 +1,24 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
+# Day 25 of My 60-Day Network Engineering Challenge
+Today’s lab pushed my understanding of IPv6 even further — especially around automatic addressing and routing redundancy.
+
+This wasn’t just about configuring routers.
+
+It was about understanding how modern IPv6 networks can intelligently configure themselves and maintain backup connectivity paths.
+
+What I worked on today:
+- Enabled IPv6 routing on all routers
+- Used SLAAC (Stateless Address Autoconfiguration) to automatically assign IPv6 addresses to PCs
+- Verified the IPv6 addresses generated on each host
+- Configured IPv6 static routes between routers
+- Implemented a backup routing path through R2 for redundancy
+- Tested end-to-end IPv6 connectivity between PC1 and PC2
+
+One of the most interesting parts of today’s lab was seeing SLAAC in action.
+
+Instead of manually assigning addresses, the PCs automatically generated their own IPv6 addresses using router advertisements — which really demonstrates the scalability and automation advantages of IPv6.
+Another key lesson was configuring a backup path.
+
+Learning how to create primary and secondary routing behavior gave me a better understanding of network resilience and failover design.
+
+IPv6 is designed not just for more devices, but for smarter and more automated networking.
+
