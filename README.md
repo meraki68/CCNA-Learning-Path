@@ -24,3 +24,4 @@
 - [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
 - [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
 - [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
+- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
