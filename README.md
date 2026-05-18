@@ -1,28 +1,23 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
+# Day 27 of My 60-Day Network Engineering Challenge
+Today’s lab took network security a step further with Extended ACLs — where traffic filtering becomes much more detailed and powerful.
+
+Unlike standard ACLs that mainly filter based on source addresses, today I worked on controlling traffic based on specific hosts, protocols, and services.
+This felt much closer to real-world enterprise security implementation.
+
+What I worked on today:
+- Configured Extended ACLs on Cisco routers
+- Restricted communication between specific networks and hosts
+- Blocked DNS access to a server from selected subnets
+- Prevented access to HTTP and HTTPS services on a server
+- Tested permitted vs denied traffic behavior
+- Strengthened understanding of protocol-based traffic filtering
+
+Policies implemented in the lab:
+- Hosts in 172.16.2.0/24 were blocked from communicating with PC1
+- Hosts in 172.16.1.0/24 were denied access to the DNS service on SRV1
+- Hosts in 172.16.2.0/24 were denied access to HTTP and HTTPS services on SRV2
+
+Instead of blocking an entire network completely, you can selectively control which services users are allowed to access — which is exactly how organizations enforce security policies in production environments.
+
+Network security is not just about blocking traffic — it’s about allowing the right traffic while denying unauthorized access.
+
