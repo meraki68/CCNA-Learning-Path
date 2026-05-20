@@ -1,29 +1,20 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
-- [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
+# Day 28 of My 60-Day Network Engineering Challenge
+Today’s lab focused on network discovery protocols — specifically CDP and LLDP — and how they help network engineers identify, map, and manage devices in a network.
+
+This was one of those labs that felt very practical because these protocols are heavily used in real-world troubleshooting and network documentation.
+
+What I worked on today:
+- Used CDP commands to discover neighboring devices
+- Identified missing IP addresses and interface IDs across the topology
+- Practiced network verification and device mapping
+- Disabled CDP on switch ports connected to PCs for security purposes
+- Disabled CDP globally on all network devices
+- Enabled LLDP globally across the network
+- Configured LLDP transmit (Tx) and receive (Rx) settings on device-to-device links
+
+One major lesson from today was understanding the difference between CDP and LLDP.
+- CDP (Cisco Discovery Protocol) is Cisco proprietary
+- LLDP (Link Layer Discovery Protocol) is vendor-neutral and works across multi-vendor environments
+
+
+
