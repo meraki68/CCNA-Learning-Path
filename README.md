@@ -28,3 +28,4 @@
 - [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
 - [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
 - [Day 28](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-28)
+- [Day 29](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-29)
