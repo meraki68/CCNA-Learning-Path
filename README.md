@@ -1,31 +1,18 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
-- [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
-- [Day 28](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-28)
-- [Day 29](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-29)
+# Day 30 of My 60-Day Network Engineering Challenge
+
+Today’s lab focused on DNS, Internet connectivity, and name resolution — the technologies that make networks feel usable in the real world.
+
+What I worked on today:
+- Configured a default route to the Internet on R1
+- Configured PCs to use a DNS server (1.1.1.1)
+- Configured DNS settings directly on the router
+- Created local host entries on R1
+- Tested hostname-based communication using ping
+- Used Packet Tracer Simulation Mode to analyze DNS and ICMP traffic step-by-step
+
+Without DNS, users would need to remember IP addresses for every service they access — which clearly isn’t practical at scale.
+
+DNS is one of the foundational services that makes modern networking usable, scalable, and user-friendly.
+
+Understanding how name resolution works gives deeper insight into how devices actually communicate across networks and the Internet.
+
