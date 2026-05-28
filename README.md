@@ -1,36 +1,20 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
-- [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
-- [Day 28](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-28)
-- [Day 29](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-29)
-- [Day 30](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-30)
-- [Day 31](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-31)
-- [Day 32](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-32)
-- [Day 33](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-33)
-- [Day 34](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-34)
+# Day 35 of 60 — The Moment Private IPs Meet the Internet (Static NAT Deep Dive)
+
+Before today's config: PC1 tries to ping 8.8.8.8.
+Result? Nothing. Dead silence.
+
+That's the reality of private IP addressing — 172.16.0.0/24 means absolutely nothing to the public internet. Without NAT, your internal network is invisible.
+
+Today's lab fixed that.
+
+What I configured on R1:
+- Identified and tagged the inside interface (G0/1 — LAN side)
+- Identified and tagged the outside interface (G0/0 — toward the internet)
+- Created static NAT entries mapping each PC's private IP to a dedicated public address in the 100.0.0.x/24 range
+
+After NAT was in place:
+- PC1 pinged 8.8.8.8 successfully ✅
+- All three PCs resolved and pinged google.com
+- Ran 'show ip nat translations' on R1 — watched the inside local vs inside global mappings appear in real time
+
+
