@@ -1,37 +1,33 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
-- [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
-- [Day 28](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-28)
-- [Day 29](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-29)
-- [Day 30](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-30)
-- [Day 31](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-31)
-- [Day 32](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-32)
-- [Day 33](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-33)
-- [Day 34](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-34)
-- [Day 35](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-35)
+# Day 36 of 60 — Dynamic NAT vs PAT: One Lab That Shows You Everything
+Dynamic NAT and PAT are how the real internet actually works for most networks — and today's lab exposed exactly WHY one is limiting and the other is essential.
+
+What i did
+— Dynamic NAT on R1:
+- Defined inside/outside interfaces
+- Created an ACL to match all 172.16.0.0/24 traffic
+- Built a NAT pool: only 2 public IPs available (100.0.0.1 – 100.0.0.2)
+- PC1 and PC2 pinged google.com successfully ✅
+
+Then PC3 tried to ping google.com.
+
+And failed. ❌
+
+Why? The pool was exhausted. 2 public IPs. 2 already in use. PC3 had no address to borrow — it simply got dropped.
+
+That's the hard limit of dynamic NAT in a single sentence:
+More devices than public IPs = some devices go dark.
+
+The Switched to PAT (NAT Overload):
+- Cleared the NAT table
+- Removed the pool-based config
+- Reconfigured using R1's single public IP with overload
+
+Now ALL three PCs pinged google.com successfully ✅✅✅
+
+Checked the NAT translation table on R1 — same public IP, three different source port numbers. That's PAT in action: one IP address, thousands of simultaneous sessions, each tracked by port.
+
+This is exactly how your home router works right now.
+And how ISPs handle millions of subscribers behind shared public IPs.
+
+The difference between Dynamic NAT and PAT isn't just config syntax — it's a fundamental shift in how you think about address scalability.
+
