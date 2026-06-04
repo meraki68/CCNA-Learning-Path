@@ -1,40 +1,16 @@
-# CCNA-Learning-Path
-# 60 Days CCNA learning challenge
-- [Day 1](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-1)
-- [Day 2](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-2)
-- [Day 3](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-3)
-- [Day 4](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-4)
-- [Day 5](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-5)
-- [Day 6](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-6)
-- [Day 7](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-7)
-- [Day 8](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-8)
-- [Day 9](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-9)
-- [Day 10](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-10)
-- [Day 11](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-11)
-- [Day 12](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-12)
-- [Day 13](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-13)
-- [Day 14](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-14)
-- [Day 15](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-15)
-- [Day 16](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-16)
-- [Day 17](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-17)
-- [Day 18](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-18)
-- [Day 19](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-19)
-- [Day 20](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-20)
-- [Day 21](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-21)
-- [Day 22](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-22)
-- [Day 23](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-23)
-- [Day 24](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-24)
-- [Day 25](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-25)
-- [Day 26](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-26)
-- [Day 27](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-27)
-- [Day 28](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-28)
-- [Day 29](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-29)
-- [Day 30](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-30)
-- [Day 31](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-31)
-- [Day 32](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-32)
-- [Day 33](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-33)
-- [Day 34](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-34)
-- [Day 35](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-35)
-- [Day 36](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-36)
-- [Day 37](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-37)
-- [Day 38](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-38)
+# Day 40 of 60 — DHCP Snooping: The Feature That Stops Rogue DHCP Attacks Dead
+
+Imagine a malicious device on your network handing out fake IP addresses to every PC that boots up.
+Wrong gateway. Wrong DNS. Every user silently redirected through an attacker's machine.
+
+That's a rogue DHCP attack — and it's trivially easy to execute on an unsecured network.
+
+Today's lab was about stopping it cold with DHCP Snooping.
+
+What I built and configured:
+- Set up R1 as the DHCP server for 192.168.1.0/24
+- Excluded 192.168.1.1 – 192.168.1.9 from the pool (reserved for infrastructure)
+- Enabled DHCP snooping on SW1 and SW2
+- Configured uplink interfaces as trusted ports
+
+
