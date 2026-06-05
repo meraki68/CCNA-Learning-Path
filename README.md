@@ -39,3 +39,4 @@
 - [Day 37](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-37)
 - [Day 38](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-38)
 - [Day 39](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-39)
+- [Day 40](https://github.com/meraki68/CCNA-Learning-Path/tree/Day-40)
